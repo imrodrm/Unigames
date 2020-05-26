@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Unigames</string>
+    <string name="title_activity_profile2">ProfileActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="change">Change data</string>
+    <string name="SignOut">Log out</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_user_data">CHANGE USER DATA</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="log_in">Log in</string>
+    <string name="i_forgot_my_password">I forgot my password</string>
+    <string name="user">User</string>
+    <string name="userTV">User:</string>
+    <string name="emailTV">Email :</string>
+    <string name="passwordTV">Password:</string>
+    <string name="registration">REGISTRATION</string>
+    <string name="sign_up">Sign up!</string>
+    <string name="i_have_an_account">I have an account</string>
+    <string name="username">Username</string>
+    <string name="user_email">User email</string>
+    <string name="reset_password">Reset password</string>
+    <string name="gamedescription">Description:</string>
+    <string name="popular_games">Popular games</string>
+    <string name="launch_date">Launch date:</string>
+    <string name="similar_games">Similar Games</string>
+    <string name="watch_more">ALL</string>
+    <string name="nintendo_switch_games">Nintendo Switch Games</string>
+    <string name="ps4_games">PS4 Games</string>
+    <string name="xbox_one_games">Xbox One Games</string>
+    <string name="android_games">Android games</string>
+</resources>

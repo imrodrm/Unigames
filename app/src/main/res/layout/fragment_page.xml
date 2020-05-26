@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment"
+    android:padding="8dp"
+    android:background="@color/color_white">
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView810"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:gravity="center"
+            android:text="Page Error"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/color_red"/>
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>
