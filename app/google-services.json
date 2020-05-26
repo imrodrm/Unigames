@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "847278623086",
+    "firebase_url": "https://unigames-c65bd.firebaseio.com",
+    "project_id": "unigames-c65bd",
+    "storage_bucket": "unigames-c65bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847278623086:android:abe73437f9047c3616597f",
+        "android_client_info": {
+          "package_name": "com.example.unigames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847278623086-ncum9mg6ln4jf5gehpqjss4dbbophivc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.unigames",
+            "certificate_hash": "0cae351eba72d764cdc60203bd8048d2d7f764d7"
+          }
+        },
+        {
+          "client_id": "847278623086-t0n49df6f4fq2tq67n572b44a94355tn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-wWmoOn0wcGh9FRg7v93_rhe9b_ucHm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847278623086-t0n49df6f4fq2tq67n572b44a94355tn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

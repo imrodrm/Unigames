@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#232323"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/dialog_Name_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game Name"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginTop="90dp"/>
+
+
+        <Button
+            android:id="@+id/dialog_btn_fragment_game"
+            android:textAlignment="textStart"
+            android:drawablePadding="20dp"
+            android:drawableLeft="@drawable/ic_crop_original_black_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="Watch game"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start" />
+        <Button
+            android:id="@+id/dialog_btn_add_game"
+            android:textAlignment="textStart"
+            android:drawablePadding="20dp"
+            android:drawableLeft="@drawable/ic_add_black_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="Add"
+            android:layout_gravity="start" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dialog_img_game"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:src="@drawable/userphoto"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+
+</RelativeLayout>
