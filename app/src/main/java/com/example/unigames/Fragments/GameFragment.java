@@ -359,11 +359,11 @@ public class GameFragment extends Fragment {
         adapterGame = new AdapterGame(getContext(),g);
         rv.setAdapter(adapterGame);
 
+
         adapterGame.setOnClickLister(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String id = g.get(rv.getChildAdapterPosition(v)).getId();
-                Toast.makeText(getActivity(),id,Toast.LENGTH_SHORT).show();
                 Fragment fragment = new GameFragment(id);
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();

@@ -136,6 +136,7 @@ public class LoginActivity extends AppCompatActivity {
                 GoogleSignInAccount account = task.getResult(ApiException.class);
                 firebaseAuthWithGoogle(account);
             } catch (ApiException e) {
+                Toast.makeText(LoginActivity.this, "Google is failing, try it with a normal account or reinstall the app", Toast.LENGTH_LONG).show();
                 // Google Sign In failed, update UI appropriately
                 //Log.w(TAG, "Google sign in failed", e);
                 // ...
